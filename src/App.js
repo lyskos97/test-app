@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Container, Header, Segment } from 'semantic-ui-react';
 import { Switch, Route } from 'react-router-dom';
+import Slider from './components/Slider';
 import Nav from './components/Nav';
 import Feed from './components/Feed';
 
@@ -18,6 +19,7 @@ class App extends React.Component {
                 <Segment padded basic>
                   <Header as="h1">The Allmighty Home</Header>
                   <Segment padded basic>
+                    <Slider />
                     <Feed itemNo={5} header="Article" />
                   </Segment>
                 </Segment>

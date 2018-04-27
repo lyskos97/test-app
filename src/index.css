@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.slick-slide div div {
+  display: flex !important;
+  justify-content: center;
+}
