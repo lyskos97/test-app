@@ -1,5 +1,9 @@
 {
   "name": "test",
+  "license": "MIT",
+  "repository": {
+    "url": "git@github.com:lyskos97/test-app.git"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {

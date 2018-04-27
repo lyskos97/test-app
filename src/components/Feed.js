@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ItemGroup } from 'semantic-ui-react';
 import FeedItem from './FeedItem';
 
-export default ({ itemNo = 5, header }) => {
+export default ({ itemNo = 5, header = 'Nice Header' }) => {
   const items = new Array(itemNo);
   items.fill(null);
 
